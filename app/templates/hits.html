@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>{{ Hits }}</h1>
+    <table>
+        <tr>
+          <th>Date</th>
+          <th>Total IPs</th> 
+          <th>Home</th>
+          <th>Docs</th>
+          <th>Patients</th>
+          <th>bubbles</th>
+          <th>motifs</th>
+        </tr>
+        {% for day_hits in day_hits %}
+        <tr>
+            <td> {{ day_hits.day }} </td>
+            <td> {{ day_hits.ip2 }} </td>
+            <td> {{ day_hits.home }} </td>
+            <td> {{ day_hits.docs }} </td>
+            <td> {{ day_hits.patients }} </td>
+            <td> {{ day_hits.bubbles }} </td>
+            <td> {{ day_hits.motifs }} </td>
+        </tr>
+        {% endfor %}
+      </table>
+{% endblock content %}
