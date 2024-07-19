@@ -1,4 +1,10 @@
-## Repository for TCR application
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="maracuja.png" alt="Maracuja Logo" width="130" style="margin-bottom: 0;">
+  </a>
+
+<h1 align="center">MaracujaView</h1 style="margin-top: 0;">
+
 
 ### About
 
